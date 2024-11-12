@@ -1,9 +1,11 @@
 ﻿using HtmlAgilityPack;
 
-namespace RatingsExportService.Client
+namespace RatingsExportService.Clients
 {
     internal interface IKinopoiskHttpClient
     {
+        string? BaseUrl { get; }
+
         Task<HtmlDocument> GetPage(int page);
     }
 }

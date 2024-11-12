@@ -1,6 +1,6 @@
-﻿namespace RatingsExportService
+﻿namespace RatingsExportService.Settings
 {
-    internal class Settings
+    internal class Client
     {
         public string? Url { get; set; }
         public string? User { get; set; }
